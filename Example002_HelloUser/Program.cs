@@ -1,6 +1,10 @@
-﻿Console.WriteLine ("Введите ваше имя");
-string username = Console.ReadLine();
-Console.Write("Привет,");
-Console.Write(username);
-
-
+﻿internal class Program
+{
+    private static void Main(string[] args)
+    {
+        Console.WriteLine("Введите ваше имя");
+        string username = Console.ReadLine();
+        Console.Write("Привет,");
+        Console.Write(username);
+    }
+}
